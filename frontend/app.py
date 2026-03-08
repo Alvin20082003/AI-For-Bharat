@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 import os
-API_URL = os.getenv("API_URL", "http://127.0.0.1:8000")
+API_URL = os.getenv("API_URL", "https://ai-for-bharat-7.onrender.com")
 
 st.set_page_config(page_title="Sahayak AI", layout="centered")
 
